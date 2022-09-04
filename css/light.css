@@ -1,0 +1,59 @@
+:root{
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --gray: #6B7280;
+    --light: #EEE;
+    --pink: #EC4899;
+    --purple: #8B5Cf6;
+}
+
+body{
+    background: var(--light);
+    
+}
+
+header h1{
+    color: var(--darkest);
+}
+
+#new-task-input{
+    background-color: rgb(164, 164, 164);
+    color: var(--darkest);
+}
+
+#new-task-input::placeholder{
+    color: var(--darkest);
+}
+
+#new-task-submit{
+    background-image: linear-gradient(to right, var(--dark), var(--darkest));
+}
+
+#theme-btn{
+    background-color: rgb(164, 164, 164);
+}
+
+#moon{
+    color: var(--light);
+}
+
+.task-list h2{
+    color: var(--darkest);
+}
+
+#tasks .task{
+    background-color: rgb(164, 164, 164);
+}
+
+#tasks .task .content .text{
+    color: var(--darkest);
+}
+
+.task .action .edit{
+    background-image: linear-gradient(to right, var(--dark), var(--darkest));
+}
+
+.task .action .delete{
+    color: rgb(155, 3, 33);
+}
