@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
@@ -85,7 +85,7 @@ input, button{
 
 main{
     flex: 1 1 0%;
-    padding: 2rem 1rem;
+    padding: 0 1rem;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
@@ -145,5 +145,15 @@ main{
 .task .action .edit{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:480px) {
+    #new-task-form{
+        flex-direction: column;
+    }
+    
+    #new-task-submit{
+        margin-top: 40px;
+    }
 }
 
